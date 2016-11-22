@@ -13,6 +13,17 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
+  
+  <reporting>
+	<plugins>
+		<plugin>
+			<artifactId>maven-surefire-report-plugin</artifactId>
+		</plugin>
+		<plugin>
+			<artifactId>maven-javadoc-plugin</artifactId>
+		</plugin>
+	</plugins>
+  </reporting>
 
   <build>
     <plugins>

@@ -18,10 +18,12 @@ public class Queue {
 	   if((tail - head) < maxqueuelength -1 ){
 		    tail++;
 		  }
-		  queue[tail % maxqueuelength] = a;
+	   queue[tail % maxqueuelength] = a;
    }
 
    public int dequeue(){
+	   
+	   //eeaggd
 	   if(tail < head){
 		    throw new IllegalStateException("dequeue on empty queue");
 		  }

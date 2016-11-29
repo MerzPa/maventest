@@ -1,4 +1,4 @@
-package de.hfu;
+package merzpa;
 
 public class Util {
 
